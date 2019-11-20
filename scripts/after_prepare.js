@@ -48,7 +48,7 @@ var PLATFORM = {
             ANDROID_DIR + '/assets/www/google-services.json',
             'www/google-services.json'
         ],
-        stringsXml: fileExists(ANDROID_DIR + '/app/src/main/res/values/strings.xml') ? ANDROID_DIR + '/app/src/main/res/values/strings.xml' : ANDROID_DIR + '/res/values/strings.xml'
+        stringsXml: ANDROID_DIR + '/res/values/strings.xml'
     }
 };
 

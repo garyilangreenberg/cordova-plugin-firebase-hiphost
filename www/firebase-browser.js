@@ -1,88 +1,82 @@
-exports.getVerificationID = function (number, success, error) {
+exports.getVerificationID = function(number, success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.getInstanceId = function (success, error) {
+exports.getInstanceId = function(success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.getToken = function (success, error) {
+exports.getToken = function(success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.getId = function (success, error) {
+exports.onNotificationOpen = function(success, error) {
+};
+
+exports.onTokenRefresh = function(success, error) {
+};
+
+exports.grantPermission = function(success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.onNotificationOpen = function (success, error) {
-};
-
-exports.onTokenRefresh = function (success, error) {
-};
-
-exports.grantPermission = function (success, error) {
+exports.setBadgeNumber = function(number, success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.setBadgeNumber = function (number, success, error) {
+exports.getBadgeNumber = function(success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.getBadgeNumber = function (success, error) {
+exports.subscribe = function(topic, success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.subscribe = function (topic, success, error) {
+exports.unsubscribe = function(topic, success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.unsubscribe = function (topic, success, error) {
+exports.logEvent = function(name, params, success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.logEvent = function (name, params, success, error) {
+exports.logError = function(message, success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.logError = function (message, success, error) {
+exports.setScreenName = function(name, success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.setScreenName = function (name, success, error) {
+exports.setUserId = function(id, success, error) {
     if (typeof success === 'function') {
         success();
     }
 };
 
-exports.setUserId = function (id, success, error) {
-    if (typeof success === 'function') {
-        success();
-    }
-};
-
-exports.setUserProperty = function (name, value, success, error) {
+exports.setUserProperty = function(name, value, success, error) {
     if (typeof success === 'function') {
         success();
     }
@@ -130,13 +124,7 @@ exports.setDefaults = function (defaults, namespace, success, error) {
     }
 };
 
-exports.verifyPhoneNumber = function (number, timeOutDuration, success, error) {
-    if (typeof success === 'function') {
-        success();
-    }
-};
-
-exports.setAnalyticsCollectionEnabled = function (enabled, success, error) {
+exports.verifyPhoneNumber = function(number, timeOutDuration, success, error) {
     if (typeof success === 'function') {
         success();
     }
