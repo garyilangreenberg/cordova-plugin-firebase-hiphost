@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/arnesson/cordova-plugin-firebase.svg?branch=master)](https://travis-ci.org/arnesson/cordova-plugin-firebase)
+[![Build Status](https://travis-ci.org/arnesson/cordova-plugin-firebase-hiphost.svg?branch=master)](https://travis-ci.org/arnesson/cordova-plugin-firebase-hiphost)
 
-# cordova-plugin-firebase
+# cordova-plugin-firebase-hiphost
 This plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!
 Android and iOS supported.
 
@@ -18,17 +18,17 @@ Paypal: https://paypal.me/arnesson
 Thank you for your support!
 
 ## Installation
-See npm package for versions - https://www.npmjs.com/package/cordova-plugin-firebase
+See npm package for versions - https://www.npmjs.com/package/cordova-plugin-firebase-hiphost
 
 Great installation and setup guide by Medium.com - [https://medium.com/@felipepucinelli/how-to-add-push...](https://medium.com/@felipepucinelli/how-to-add-push-notifications-in-your-cordova-application-using-firebase-69fac067e821)
 
 Install the plugin by adding it your project's config.xml:
 ```
-<plugin name="cordova-plugin-firebase" spec="1.0.0" />
+<plugin name="cordova-plugin-firebase-hiphost" spec="1.0.0" />
 ```
 or by running:
 ```
-cordova plugin add cordova-plugin-firebase@1.0.0 --save
+cordova plugin add cordova-plugin-firebase-hiphost@1.0.0 --save
 ```
 Download your Firebase configuration files, GoogleService-Info.plist for ios and google-services.json for android, and place them in the root folder of your cordova project:
 
