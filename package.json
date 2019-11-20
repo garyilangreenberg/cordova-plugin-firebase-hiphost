@@ -6,7 +6,7 @@
     "url": "git+https://github.com/uthgroup/cordova-plugin-firebase-hiphost.git"
   },
   "name": "cordova-plugin-firebase-hiphostapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cordova plugin for Google Firebase (Hiphost)",
   "cordova": {
     "id": "cordova-plugin-firebase-hiphostapp",
@@ -30,6 +30,10 @@
     "notifications",
     "phone auth"
   ],
+  "scripts": {
+    "version": "node ./bump-version.js && git add -A plugin.xml",
+    "postversion": "git push && git push --tags && npm publish"
+  },
   "bugs": {
     "url": "https://github.com/uthgroup/cordova-plugin-firebase-hiphost/issues"
   },
