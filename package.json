@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "Robert Arnesson"
+    "name": "UTH"
   },
   "license": "MIT",
   "repository": {
@@ -9,9 +9,9 @@
   },
   "name": "cordova-plugin-firebase-hiphost",
   "version": "1.0.1",
-  "description": "Cordova plugin for Google Firebase",
+  "description": "Cordova plugin for Google Firebase (Hiphost)",
   "cordova": {
-    "id": "cordova-plugin-firebase",
+    "id": "cordova-plugin-firebase-hiphost",
     "platforms": [
       "android",
       "ios",
